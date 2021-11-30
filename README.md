@@ -17,13 +17,13 @@
 First Step:
 
 ```
-git clone git@github.com:elibiz443/dashboard_template.git
+git clone git@github.com:elibiz443/dashboard_template.git (paste it on gitbush)
 ```
 
 Step 2:
 
 ```
-cd dashboard_template
+cd dashboard_template (paste this to gitbush)
 ```
 
 Step 3:
