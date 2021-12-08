@@ -1,1 +1,1 @@
-![image 1](assets/images/TimmsSignUp.png)
+![image 1](assets/images/TimmsSignUpp.png)
