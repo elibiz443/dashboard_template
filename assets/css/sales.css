@@ -44,13 +44,23 @@
 
 
 .card-placement {
-  background-color: red;
+  margin-top: 10px;
 }
 
 .tile-card {
   background-color: #fff;
   margin: 20px;
-  width: calc(14vw - 5px);
-  height: calc(24vh - 50px);
+  width: calc(32% - 10%);
+  height: calc(52% - 10%);
   border-radius: 5px;
+  box-shadow: 0 10px 12px -2px #d0cbfa;
+}
+
+.tile-card-small {
+  background-color: #fff;
+  margin: 10px;
+  width: calc(50% - 10%);
+  height: calc(52% - 10%);
+  border-radius: 5px;
+  box-shadow: 0 10px 12px -2px #d0cbfa;
 }
