@@ -13,8 +13,12 @@
 }
 .stage .tile {
   position: relative;
-  flex: 1 1 calc(10.333% - 96px);
-  padding: 50px 25px;
+
+  /*width: calc(16% - 5px);*/
+
+  width: 1 1 calc(20% - 96px);
+
+  padding: 50px 40px;
   margin: 15px;
   background: #252422;
   cursor: pointer;

@@ -12,151 +12,182 @@
   <link rel="stylesheet" href="assets/css/universal.css">
   <link rel="stylesheet" href="assets/css/widgets.css">
   <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/sales.css">
+  <link rel="stylesheet" href="assets/css/missing_css.css">
 
   <script src="https://kit.fontawesome.com/8a19059624.js" crossorigin="anonymous"></script>
-  <style>.center {text-align: center;width: 100%;}</style>
 </head>
 <body>
 
-  <left>
-   <h1 style="color: #91837C;font-size: 25px; font-family: cursive; ">Overview
-      <i style="color: #66615B;"class="fas fa-dot-circle"></i>
+  <header class="main-head">
+    <nav class="head-nav">
+      <nav class="timms-title">
+        <li>
+          <a href="/">
+            <img src="assets/images/logo.png" width="50px">
+            <span><b class="timms-header">TiMMs</b></span>
+          </a>
+        </li>
+      </nav>
+      <ul class="menu">
+        <li class="dropdown">
+          <a href="/admin-dashboard">
+            <i class="font-icon fas fa-tachometer-alt"></i>
+            <span>
+              <div class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashboard&emsp;</div>
 
-   </h1>  
-  </left>
-<section class="content">
-  
-  <div class="widgets">
+              <div class="dropdown-menu text-end" aria-labelledby="dropdownMenuButton" style="margin-left: 229px;margin-top: -50px;">
+                <a class="dropdown-item" href="/sales" style="margin-top:-34px;"><i class="fa fa-shopping-cart">&emsp;</i>Sales Report</a>
+                <a class="dropdown-item" href="/products"><i class="fa fa-plus">&emsp;</i>Products</a>
+              </div>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="stage">
-      <div class="tile active">
-        <!-- <i style="font-size: 20px; color: #F3BB45;"class="fas fa-project-diagram"></i> -->
-        <p style="color: #252422;text-align: right; text-transform: capitalize;">Active Projects</p> 
-        <p style="color: #252422;
-                  font-size: 20px;
-                  text-align:right;
-                  margin-bottom: -40px; 
-                  margin-top: -10px;
-                  margin-right: 20px;">7</p>
-        <p style="color: #ded6ca; text-transform: capitalize;">
-        </p>  
+  <div class="wrapper">
+    <section class="content">
+
+      <div class="widgets">
+        <div class="stage">
+
+          <div class="tile active">
+            <div class="icon-1"><i class="fas fa-project-diagram"></i></div>
+            <h5 class="icon-h4-1">Active Projects</h5> 
+            <h4 class="icon-h4">7</h4>
+          </div>
+
+          <div class="tile past">
+            <div class="icon-2"><i class="fas fa-clipboard-check"></i></div>
+            <h5 class="icon-h4-1">Past projects</h5> 
+            <h4 class="icon-h4">20</h4>
+          </div>
+
+          <div class="tile active-total">
+            <div class="icon-3"><i class="fas fa-warehouse"></i></div>
+            <h5 class="icon-h4-1">Active ODMA Vs Total</h5> 
+            <h4 class="icon-h4">3/4</h4>
+          </div>
+
+          <div class="tile chart">
+            <div class="icon-4"><i class="fas fa-info-circle"></i></div>
+            <h5 class="icon-h4-1">Details</h5>
+            <h4 class="icon-h4">
+              <a class="btn btn-primary" href="#">View</a> 
+            </h4>
+          </div>
+
+        </div>
       </div>
-      <div class="tile past">
-        <!-- <i style="font-size: 40px; color: #7AC29A;"class="fas fa-clipboard-check"></i> -->
-        <p style="color: #252422;text-align: right;text-transform: capitalize;">Past projects</p>
-        <p style="color: #252422;
-                  font-size: 20px;
-                  text-align:right;
-                  margin-bottom: -30px; 
-                  margin-top: -10px;
-                  margin-right: 20px;">20</p>
-      </div>
-      <div class="tile active-total">
-        <!-- <i style="font-size: 40px; color: #EB5E28;"class="fas fa-warehouse"></i> -->
-        <p style="color: #252422;text-align: right; text-transform: capitalize;">Active ODMA Vs Total</p>
-        <p style="color: #252422;
-                  font-size: 20px;
-                  text-align:right;
-                  margin-bottom: -30px; 
-                  margin-top: -10px;
-                  margin-right: 20px;">3/4</p>
-      </div>
-      <div class="tile chart">
-        <!-- <i style="font-size: 40px; color: #68B3C8;"class="fas fa-info-circle"></i> -->
-        <p style="color: #252422;text-align: right; text-transform: capitalize;">Details</p>
-        <p style="color: #252422;
-                  font-size: 20px;
-                  text-align:right;
-                  margin-bottom: -30px; 
-                  margin-top: -10px;
-                  margin-right: 20px;">
-        <a style="font-size: 15px;"class="mybutton" href="#">View</a> 
-        </p>
+
+      <div class="card-placement">
+        <div class="row">
+          <div class="tile-card">
+            <div style="padding-top: 20px;padding-right: 10px;text-align: right;">
+              <i class="fa fa-home"></i>
+              First Text
+              <h3 style="border-bottom: 1px solid #ccc;font-weight: bold;padding-bottom: 15px;">Second Text</h3>
+            </div>
+            <div style="padding-top: 30px;">Third Text</div>
+          </div>
+          <div class="tile-card">
+            <p>First Text</p>
+            <h3>Second Text</h3>
+          </div>
+          <div class="tile-card">
+            <p>First Text</p>
+            <h3>Second Text</h3>
+          </div>
+          <div class="tile-card">
+            <p>First Text</p>
+            <h3>Second Text</h3>
+          </div>
+        </div>
       </div>
 
-    </div>
-  </div>
+      <div class="widgets">
 
-  <div class="widgets">
+        <div class="stage">
+          <div class="tile locations">
+            
+            <p style="color: #252422;
+                      text-align: left; 
+                      font-size: 35px;
+                      text-transform: capitalize;">Sales by Locations</p>
+            <p style="color: #9D9D9D ;
+                      text-align: left; 
+                      text-transform: capitalize;">All products there were shipped</p>  
+            <p style="color: #252422;
+                      font-size: 30px;
+                      text-align: left;
+                      margin-bottom: 350px;"></p>
+            
 
-    <div class="stage">
-      <div class="tile locations">
-        
-        <p style="color: #252422;
-                  text-align: left; 
-                  font-size: 35px;
-                  text-transform: capitalize;">Sales by Locations</p>
-        <p style="color: #9D9D9D ;
-                  text-align: left; 
-                  text-transform: capitalize;">All products there were shipped</p>  
-        <p style="color: #252422;
-                  font-size: 30px;
-                  text-align: left;
-                  margin-bottom: 350px;"></p>
-        
+            
+          </div>
+          <div class="tile earning">
+            <p style="color: #252422;
+                      font-size: 30px;
+                      text-align: left;
+                      text-transform: capitalize;">$4,000,000</p>
+            <p style="color: #252422;
+                      text-align: left;
+                      text-transform: capitalize;">Total Earnings</p>
+            <p style="color: #252422;
+                      font-size: 30px;
+                      text-align: left;margin-bottom: 350px;"></p>
+          </div>
+          
 
-        
-      </div>
-      <div class="tile earning">
-        <p style="color: #252422;
-                  font-size: 30px;
-                  text-align: left;
-                  text-transform: capitalize;">$4,000,000</p>
-        <p style="color: #252422;
-                  text-align: left;
-                  text-transform: capitalize;">Total Earnings</p>
-        <p style="color: #252422;
-                  font-size: 30px;
-                  text-align: left;margin-bottom: 350px;"></p>
+        </div>
       </div>
       
+      <div class="widgets">
 
-    </div>
-  </div>
-  
-  <div class="widgets">
+        <div class="stage">
+          <div class="tile dashboard">
+            <p style="color: #fff;text-align: center; text-transform: capitalize;">Dashboard</p>
+            <p style="color: #252422;text-align: center; text-transform: capitalize;">Monthly Sales Target</p>
+            <p style="color: #252422;font-size: 30px;text-align: center;margin-bottom: 300px;"></p>
 
-    <div class="stage">
-      <div class="tile dashboard">
-        <p style="color: #fff;text-align: center; text-transform: capitalize;">Dashboard</p>
-        <p style="color: #252422;text-align: center; text-transform: capitalize;">Monthly Sales Target</p>
-        <p style="color: #252422;font-size: 30px;text-align: center;margin-bottom: 300px;"></p>
+       <!--  <div class="c100 p34 center">
+            <span>70%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div> -->
+     
+     </div>
+          <div class="tile orders">
+            <p style="color: #fff;text-align: center;text-transform: capitalize;">Orders</p>
+            <p style="color: #252422;text-align: center; text-transform: capitalize;">Completed</p>
+            <p style="color: #252422;font-size: 30px;text-align: center;margin-bottom: 300px;"></p>
+          </div>
+          <div class="tile visitors">
+            <p style="color: #fff;text-align: center; text-transform: capitalize;">New Visitors</p>
+            <p style="color: #252422;text-align: center; text-transform: capitalize;">Out of Total Number</p>
+            <p style="color: #252422;font-size: 30px;text-align: center;margin-bottom: 300px;"></p>
+          </div>
+          <div class="tile subscriptions">
+            <p style="color: #fff;text-align: center; text-transform: capitalize;">Subscriptions</p>
+            <p style="color: #252422;text-align: center; text-transform: capitalize;">Monthly Newslater</p>
+            <p style="color: #252422;font-size: 30px;text-align: center;margin-bottom: 300px;"></p>
+          </div>
 
-   <!--  <div class="c100 p34 center">
-        <span>70%</span>
-        <div class="slice">
-            <div class="bar"></div>
-            <div class="fill"></div>
         </div>
-    </div> -->
- 
- </div>
-      <div class="tile orders">
-        <p style="color: #fff;text-align: center;text-transform: capitalize;">Orders</p>
-        <p style="color: #252422;text-align: center; text-transform: capitalize;">Completed</p>
-        <p style="color: #252422;font-size: 30px;text-align: center;margin-bottom: 300px;"></p>
       </div>
-      <div class="tile visitors">
-        <p style="color: #fff;text-align: center; text-transform: capitalize;">New Visitors</p>
-        <p style="color: #252422;text-align: center; text-transform: capitalize;">Out of Total Number</p>
-        <p style="color: #252422;font-size: 30px;text-align: center;margin-bottom: 300px;"></p>
-      </div>
-      <div class="tile subscriptions">
-        <p style="color: #fff;text-align: center; text-transform: capitalize;">Subscriptions</p>
-        <p style="color: #252422;text-align: center; text-transform: capitalize;">Monthly Newslater</p>
-        <p style="color: #252422;font-size: 30px;text-align: center;margin-bottom: 300px;"></p>
-      </div>
-
-    </div>
+    </section>
   </div>
-</section>
   
  
 
- <footer>
+<!--  <footer>
   <h6>Copyright © Timms 2021</h6>
   <p class="universal-color"><b>All Rights Reserved</b></p>
-</footer>
+</footer> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>

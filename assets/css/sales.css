@@ -1,0 +1,56 @@
+.center {
+  text-align: center;width: 100%;
+}
+
+.icon-1 {
+  font-size: 20px;
+  color: #F3BB45;
+}
+
+.icon-2 {
+  font-size: 20px;
+  color: #7AC29A;
+}
+
+.icon-3 {
+  font-size: 20px;
+  color: #EB5E28;
+}
+
+.icon-4 {
+  font-size: 20px;
+  color: #68B3C8;
+}
+
+.icon-h4-1 {
+  color: #68B3C8;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.icon-h4 {
+  color: #252422;
+  font-size: 20px;
+  text-align:right;
+  margin-bottom: -40px; 
+  margin-top: -10px;
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: darkblue;
+  margin-top: 10px;
+}
+
+
+.card-placement {
+  background-color: red;
+}
+
+.tile-card {
+  background-color: #fff;
+  margin: 20px;
+  width: calc(14vw - 5px);
+  height: calc(24vh - 50px);
+  border-radius: 5px;
+}

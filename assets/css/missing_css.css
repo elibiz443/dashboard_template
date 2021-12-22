@@ -1,0 +1,153 @@
+.hide {
+  display: none;
+}
+
+.timms-header {
+  font-family: Courier New, monospace;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.timms-title {
+  background-color: rgba(80, 154, 240, 0.2);
+}
+
+.timms-title img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.timms-title:hover {
+  background:   #93fc71;
+  color: #ccfef8;
+  text-align: center;
+}
+
+.head-nav li:hover {
+  background: radial-gradient(circle at 94.02% 88.03%, #93fc71, transparent 100%);
+}
+
+.font-icon {
+  padding-left: 20px;
+  color: #fff;
+  font-size: 20px;
+  width: 30%;
+}
+
+.head-nav ul {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.head-nav li {
+  position: relative;
+  clear: both;
+  width: 100%;
+  padding: 0;
+  transition: background 400ms;
+  list-style: none;
+}
+
+.head-nav li a {
+  display: flex;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.head-nav a {
+  align-items: center;
+  width: 100%;
+  color: #fefefe;
+  text-decoration: none;
+  transition: color 400ms;
+}
+
+.head-nav a span {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-weight: 100;
+  font-size: 15px;
+  z-index: 0;
+  font-family: Roboto;
+  text-indent: -20em;
+  white-space: nowrap;
+  transition: text-indent 400ms ease-in-out;
+}
+@media screen and (max: 768px) {
+  .head-nav ul {
+    margin-top: 0.23125rem;
+  }
+}
+
+.main-head {
+  position: fixed;
+  bottom: 0;
+  width: 65px;
+  height: 100%;
+  z-index: 1;
+  background: #4CBB17;
+  transition: width 400ms;
+}
+
+.main-head:hover {
+  width: 245px;
+}
+
+.main-head:hover + .wrapper {
+  transform: translateX(150px);
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+.main-head:hover .head-nav li:nth-of-type(1) span {
+  transition-delay: 100ms;
+}
+
+.main-head:hover .head-nav li:nth-of-type(2) span {
+  transition-delay: 200ms;
+}
+
+.main-head:hover .head-nav li:nth-of-type(3) span {
+  transition-delay: 300ms;
+}
+
+.main-head:hover .head-nav li:nth-of-type(4) span {
+  transition-delay: 400ms;
+}
+
+.main-head:hover .head-nav span {
+  text-indent: 0;
+}
+
+@media screen and (max: 768px) {
+  .main-head {
+    width: 70px;
+    padding: 0 0.925rem;
+  }
+  .main-head .head-nav {
+    padding-left: 7px;
+  }
+  .main-head:hover .head-nav span {
+    text-indent: 1em;
+  }
+}
+
+.wrapper {
+  min-height: 100%;
+  height: 100%;
+  padding-left: 115px;
+  margin-top: -66px;
+  background-size: cover;
+  background-position: center center;
+  transition: transform 400ms, opacity 400ms;
+}
+@media screen and (max: 480px) {
+  .wrapper {
+    padding-left: 5px;
+  }
+}
