@@ -31,3 +31,9 @@ Step 3:
 Go to 'index.html' And CSS files and start creating the views.
 
 Voilà
+
+New Task:
+
+Design The following signin using html and css:
+
+![image 3](assets/images/signin_image.png)
