@@ -8,22 +8,17 @@
   </head>
   <body class="background">
     <div class="container">
-      <h1 style="font-size: 22px;">Welcome To Timms!</h1>
-      <h2 style="font-size: 16px;">Signup as Freelancer By Phone Number:</h1>
-      <button class="click"> Code</button>
-      <div class="list">
-        <button class="links">+254</button>
-        <button class="links">+255</button>
-        <button class="links">+256</button>
-        <button class="links">+257</button>
-      </div>
+      <h1>Welcome To Timms!</h1>
+      <h2>Signup as Freelancer By Phone Number:</h2>
+      <label for="code">Code:</label>
+      <select id="code" name="code">
+        <option value="+254">+254</option>
+        <option value="+255">+255</option>
+        <option value="+256">+256</option>
+        <option value="+257">+257</option>
+      </select>
+      <label for="fname">Phone:</label>
+      <input type="text" id="Pnumber" name="Pfnumber">
     </div>
-    <script>
-    let click = document.querySelector('.click');
-    let list = document.querySelector('.list');
-    click.addEventListener("click",()=>{
-    list.classList.toggle('newlist');
-    });
-    </script>
   </body>
 </html>
