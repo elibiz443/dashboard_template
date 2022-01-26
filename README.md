@@ -37,3 +37,13 @@ New Task:
 Design The following signin using html and css:
 
 ![image 3](assets/images/signin_image.png)
+
+* New View 1:
+
+![image 1](assets/images/view1.png)
+
+* New View 2:
+
+![image 1](assets/images/view2.png)
+
+### Adiós
