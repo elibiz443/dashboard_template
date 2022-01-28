@@ -1,0 +1,25 @@
+body {
+  background-color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  color: #65468b;
+  font-size: 20px;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.arc {
+  padding-left: 579px;
+
+}
+.dev {
+  padding-left: 590px;
+}
+.int {
+  padding-left: 615px;
+}
+.des {
+  padding-left: 650px;
+}
